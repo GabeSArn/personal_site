@@ -1,0 +1,195 @@
+body, html {
+  height: 100%;
+  line-height: 1.5;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  text-align: center;
+}
+
+h2 {
+  font-size: 36px;
+}
+
+p {
+  font-family: monospace;
+  font-size: 18px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.about_me_content {
+  font-family: 'Bebas Neue', cursive;
+  padding: 1em;
+  z-index: 1;
+}
+
+.coding_project {
+  padding: 2em;
+}
+
+.inpage_link p {
+  padding: 1em;
+  text-align: center;
+}
+
+.inpage_link {
+  text-align: center;
+}
+
+.hero_img {
+  height: 100%;
+  background-image: url('../photos/venice.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+  position: relative;
+  z-index: -1;
+}
+
+.main_nav {
+  margin: 0 auto;
+  height: .75em;
+  text-align: center;
+}
+
+.footer_ {
+  text-align: center;
+}
+
+.footer_content {
+  display: inline-block;
+  padding: 1em 1em;
+  margin: 2em;
+}
+
+.github_link {
+  padding: 1em;
+  object-fit: cover;
+}
+
+.nav_link {
+  display: inline-block;
+  margin: 0 auto;
+  padding-top: 1em;
+  padding-left: 1.25em;
+  padding-right: 1.25em;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-family: franklin-gothic-atf, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.overview {
+  font-weight: bold;
+}
+
+.section_title {
+  font-family: libre-franklin, sans-serif;
+  font-weight: 800;
+  padding: 1em 1em;
+  text-transform: uppercase;
+}
+
+.skills_header {
+  font-family: franklin-gothic-atf, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.skills_holder {
+  margin-bottom: 2em;
+  padding: 2em;
+  width: 15%;
+}
+
+.skills_pic {
+  width:100%;
+  height:100%;
+  object-fit: cover;
+}
+
+.skills_info {
+  font-family: libre-franklin, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-transform: uppercase;
+}
+
+.python_projects {
+  text-align: center;
+}
+
+.python_project_holder {
+  padding: 1em;
+}
+
+.portfolio_project {
+  display: inline-block;
+  padding: 2em;
+  font-family: libre-franklin, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  height: 3em;
+}
+
+.project_subtitle {
+  padding-top: 1em;
+  padding-bottom: 1em;
+  text-transform: uppercase;
+  font-family: libre-franklin, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  text-align: center;
+}
+
+.project_section {
+  margin: 0 auto;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+.project_item {
+  font-family: libre-franklin, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+}
+
+.purpose {
+  color: red;
+  font-size: 3.5em;
+}
+
+.skills {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.github_link {
+  padding-top: 1em;
+}
+
+.skills_subsection {
+  text-align: center;
+  margin: 0 auto;
+  padding: 1em 1em;
+  box-shadow: 10px 10px 10px 5px grey;
+}
+
+.skills_holder {
+  display: inline-block;
+  padding: 2em 2em;
+  text-align: center;
+}
+
+.link_text {
+  text-align: center;
+}
