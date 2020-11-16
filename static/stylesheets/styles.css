@@ -28,6 +28,12 @@ ul {
   z-index: 1;
 }
 
+.about_me_info {
+  padding-top: 2em;
+  margin-top: 1em;
+  text-align: center;
+}
+
 .coding_project {
   padding: 2em;
 }
