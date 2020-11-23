@@ -2,4 +2,4 @@ main.pyc
 .ipynb_checkpoints/
 .DS_Store
 .gitignore
-.venv/
+/venv
