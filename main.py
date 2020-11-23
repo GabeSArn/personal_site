@@ -1,8 +1,6 @@
 from flask import Flask, request, render_template
 my_app = Flask(__name__)
 
-my_app.config['SEND_FILE_MAX_AGE_DEFAULT'] = -1
-
 @my_app.route('/home')
 @my_app.route('/')
 def hello_world():
