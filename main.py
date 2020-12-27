@@ -11,4 +11,4 @@ def about_me_page():
     return render_template('about.html')
 
 if __name__=='__main__':
-    my_app.run()
+    my_app.run(debug=True, threaded=True, port=5000)
