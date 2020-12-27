@@ -85,7 +85,6 @@ torch==1.6.0
 tornado==4.5.3
 tqdm==4.48.0
 traitlets==4.3.2
-urllib3==1.25.0
 wcwidth==0.1.7
 webencodings==0.5.1
 Werkzeug==1.0.1
