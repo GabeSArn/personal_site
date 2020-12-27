@@ -11,4 +11,5 @@ def about_me_page():
     return render_template('about.html')
 
 if __name__=='__main__':
-    my_app.run(debug=True, threaded=True, port=5000)
+    my_app.debug = True
+    waitress.serve(my_app, port=port)
