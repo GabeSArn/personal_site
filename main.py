@@ -1,4 +1,5 @@
 from flask import Flask, request, render_template
+from waitress import serve
 my_app = Flask(__name__)
 
 @my_app.route('/home')
@@ -12,4 +13,4 @@ def about_me_page():
 
 if __name__=='__main__':
     my_app.debug = True
-    waitress.serve(my_app, port=port)
+    serve(my_app)
