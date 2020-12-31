@@ -12,4 +12,5 @@ def about_me_page():
     return render_template('about.html')
 
 if __name__=='__main__':
-    my_app.run(debug = True, port=int(os.environ.get('PORT', 17995)))
+    Port = int(os.environ.get('PORT', 17995))
+    my_app.run(debug = True, port=Port)
