@@ -1,5 +1,5 @@
 from flask import Flask, request, render_template
-from waitress import serve
+import os
 my_app = Flask(__name__)
 
 @my_app.route('/home')
@@ -12,5 +12,4 @@ def about_me_page():
     return render_template('about.html')
 
 if __name__=='__main__':
-    my_app.debug = True
-    serve(my_app)
+    my_app.run(debug=True, port=int(os.environ.get('PORT', 17995)))
