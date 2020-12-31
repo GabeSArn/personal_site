@@ -4,11 +4,11 @@ import os
 app = Flask(__name__)
 
 
-@my_app.route('/')
+@app.route('/')
 def hello_world():
     return render_template('home.html')
 
-@my_app.route('/about')
+@app.route('/about')
 def about_me_page():
     return render_template('about.html')
 
