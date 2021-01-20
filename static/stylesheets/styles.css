@@ -78,6 +78,10 @@ ul {
   object-fit: cover;
 }
 
+.logo {
+  padding-right: 4em
+}
+
 .nav_link {
   display: inline-block;
   margin: 0 auto;
