@@ -58,9 +58,9 @@ ul {
 }
 
 .main_nav {
-  margin: 0 auto;
+  margin-left: 3em;
   height: .75em;
-  text-align: center;
+  text-align: right;
 }
 
 .footer_ {
@@ -78,8 +78,8 @@ ul {
   object-fit: cover;
 }
 
-.logo {
-  padding-right: 4em
+.main_logo {
+  text-align: right;
 }
 
 .nav_link {
