@@ -1,6 +1,6 @@
 # Personal Website
 
-<a>www.arnolddata.com</a>
+<p><a>www.arnolddata.com</a></p>
 
 ## General Information
 
