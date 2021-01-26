@@ -4,9 +4,9 @@ body, html {
 }
 
 a {
-  text-decoration: none;
   color: black;
   text-align: center;
+  text-decoration: none;
 }
 
 h2 {
@@ -28,8 +28,8 @@ ul {
 }
 
 .about_me_info {
-  padding-top: 2em;
   margin-top: 1em;
+  padding-top: 2em;
   text-align: center;
 }
 
@@ -47,19 +47,19 @@ ul {
 }
 
 .hero_img {
-  height: 100%;
   background-image: url('../photos/venice.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  height: 100%;
   object-fit: cover;
   position: relative;
   z-index: -1;
 }
 
 .main_nav {
-  margin-left: 3em;
   height: .75em;
+  margin-left: 3em;
   text-align: right;
 }
 
@@ -69,13 +69,13 @@ ul {
 
 .footer_content {
   display: inline-block;
-  padding: 1em 1em;
   margin: 2em;
+  padding: 1em 1em;
 }
 
 .github_link {
-  padding: 1em;
   object-fit: cover;
+  padding: 1em;
 }
 
 .main_logo {
@@ -84,15 +84,15 @@ ul {
 
 .nav_link {
   display: inline-block;
+  font-family: franklin-gothic-atf, sans-serif;
+  font-style: normal;
+  font-weight: 400;
   margin: 0 auto;
   padding-top: 1em;
   padding-left: 1.25em;
   padding-right: 1.25em;
   text-transform: uppercase;
   text-decoration: none;
-  font-family: franklin-gothic-atf, sans-serif;
-  font-weight: 400;
-  font-style: normal;
 }
 
 .overview {
@@ -102,9 +102,9 @@ ul {
 .section_title {
   font-family: libre-franklin, sans-serif;
   font-weight: 800;
+  margin: 0 auto;
   padding: 1em 1em;
   text-transform: uppercase;
-  margin: 0 auto;
 }
 
 .skills_header {
@@ -121,15 +121,15 @@ ul {
 }
 
 .skills_pic {
-  width:100%;
   height:100%;
   object-fit: cover;
+  width:100%;
 }
 
 .skills_info {
   font-family: libre-franklin, sans-serif;
-  font-weight: 400;
   font-style: normal;
+  font-weight: 400;
   text-transform: uppercase;
 }
 
@@ -143,33 +143,33 @@ ul {
 
 .portfolio_project {
   display: inline-block;
-  padding: 2em;
   font-family: libre-franklin, sans-serif;
   font-weight: 400;
   font-style: normal;
   height: 3em;
+  padding: 2em;
 }
 
 .project_subtitle {
+  font-family: libre-franklin, sans-serif;
+  font-style: normal;
+  font-weight: 600;
   padding-top: 1em;
   padding-bottom: 1em;
-  text-transform: uppercase;
-  font-family: libre-franklin, sans-serif;
-  font-weight: 600;
-  font-style: normal;
   text-align: center;
+  text-transform: uppercase;
 }
 
 .project_section {
   margin: 0 auto;
-  padding-top: 2em;
   padding-bottom: 2em;
+  padding-top: 2em;
 }
 
 .project_item {
   font-family: libre-franklin, sans-serif;
-  font-weight: 400;
   font-style: normal;
+  font-weight: 400;
   text-align: center;
 }
 
@@ -188,10 +188,10 @@ ul {
 }
 
 .skills_subsection {
-  text-align: center;
+  box-shadow: 10px 10px 10px 5px grey;
   margin: 0 auto;
   padding: 1em 1em;
-  box-shadow: 10px 10px 10px 5px grey;
+  text-align: center;
 }
 
 .skills_holder {
