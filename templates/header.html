@@ -24,7 +24,18 @@
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
 
   </head>
+
+
   <body>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'GA_MEASUREMENT_ID');
+      gtag('config', 'GA_MEASUREMENT_ID', { 'send_page_view': false });
+    </script>
+
     <ul class = 'main_nav'>
       <li class = 'nav_link main_logo'>Arnold Data</li>
       <p class = 'nav_link'> | </p>
