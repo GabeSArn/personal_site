@@ -145,8 +145,8 @@ ul {
 .portfolio_project {
   display: inline-block;
   font-family: libre-franklin, sans-serif;
-  font-weight: 400;
   font-style: normal;
+  font-weight: 400;
   height: 3em;
   padding: 2em;
 }
@@ -155,8 +155,8 @@ ul {
   font-family: libre-franklin, sans-serif;
   font-style: normal;
   font-weight: 600;
-  padding-top: 1em;
   padding-bottom: 1em;
+  padding-top: 1em;
   text-align: center;
   text-transform: uppercase;
 }
