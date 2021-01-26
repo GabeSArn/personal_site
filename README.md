@@ -1,8 +1,10 @@
 # Personal Website
 
+## General Information
+
 Personal Website to show coding projects.
 
-Built with:
+## Technologies
 
 - Python
 - Flask
