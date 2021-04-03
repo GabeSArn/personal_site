@@ -1,6 +1,6 @@
 body, html {
   height: 100%;
-  line-height: 1.5;
+  line-height: 1.25em;
 }
 
 a {
@@ -28,6 +28,7 @@ button {
   display: inline-block;
   text-align: center;
   text-decoration: none;
+  text-transform: uppercase;
 }
 
 .about_me_content {
@@ -40,10 +41,6 @@ button {
   margin-top: 10em;
   padding-top: 4em;
   text-align: center;
-}
-
-.coding_project {
-  padding: 2em;
 }
 
 .inpage_link p {
@@ -86,7 +83,6 @@ button {
   display: inline-block;
   font-family: libre-franklin, sans-serif;
   font-style: normal;
-  font-weight: 400;
   margin: 0 auto;
   padding-top: 1em;
   padding-left: 1.25em;
@@ -100,15 +96,13 @@ button {
 
 .section_title {
   font-family: franklin-gothic-atf, sans-serif;
-  font-weight: 800;
   margin: 0 auto;
-  padding: 1em 1em;
+  padding: 1em;
 }
 
 .skills_header {
   font-family: libre-franklin, sans-serif;
   font-style: normal;
-  font-weight: 400;
   text-transform: uppercase;
 }
 
@@ -127,7 +121,6 @@ button {
 .skills_info {
   font-family: libre-franklin, sans-serif;
   font-style: normal;
-  font-weight: 400;
   text-transform: uppercase;
 }
 
@@ -143,15 +136,12 @@ button {
   display: inline-block;
   font-family: libre-franklin, sans-serif;
   font-style: normal;
-  font-weight: 400;
   height: 3em;
-  padding: 2em;
 }
 
 .project_subtitle {
   font-family: libre-franklin, sans-serif;
   font-style: normal;
-  font-weight: 600;
   padding-bottom: 1em;
   padding-top: 1em;
   text-align: center;
@@ -166,7 +156,6 @@ button {
 .project_item {
   font-family: libre-franklin, sans-serif;
   font-style: normal;
-  font-weight: 400;
   text-align: center;
 }
 
@@ -195,5 +184,5 @@ button {
 }
 
 .button_link {
-  padding: 2em;
+  padding: 1em;
 }
