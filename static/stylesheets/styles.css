@@ -47,17 +47,6 @@ ul {
   text-align: center;
 }
 
-.hero_img {
-  background-image: url('../photos/venice.jpg');
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 100%;
-  object-fit: cover;
-  position: relative;
-  z-index: -1;
-}
-
 .main_nav {
   height: .75em;
   margin-left: 3em;
@@ -85,14 +74,13 @@ ul {
 
 .nav_link {
   display: inline-block;
-  font-family: franklin-gothic-atf, sans-serif;
+  font-family: libre-franklin, sans-serif;
   font-style: normal;
   font-weight: 400;
   margin: 0 auto;
   padding-top: 1em;
   padding-left: 1.25em;
   padding-right: 1.25em;
-  text-transform: uppercase;
   text-decoration: none;
 }
 
@@ -101,15 +89,14 @@ ul {
 }
 
 .section_title {
-  font-family: libre-franklin, sans-serif;
+  font-family: franklin-gothic-atf, sans-serif;
   font-weight: 800;
   margin: 0 auto;
   padding: 1em 1em;
-  text-transform: uppercase;
 }
 
 .skills_header {
-  font-family: franklin-gothic-atf, sans-serif;
+  font-family: libre-franklin, sans-serif;
   font-style: normal;
   font-weight: 400;
   text-transform: uppercase;
@@ -158,7 +145,6 @@ ul {
   padding-bottom: 1em;
   padding-top: 1em;
   text-align: center;
-  text-transform: uppercase;
 }
 
 .project_section {
@@ -189,8 +175,6 @@ ul {
 }
 
 .skills_subsection {
-  box-shadow: 10px 10px 10px 5px grey;
-  margin: 0 auto;
   padding: 1em 1em;
   text-align: center;
 }
