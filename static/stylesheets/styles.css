@@ -27,10 +27,11 @@ button {
   border: none;
   color: white;
   display: inline-block;
+  margin: 1em;
   padding: 1em;
   text-align: center;
   text-decoration: none;
-  text-transform: uppercase;  
+  text-transform: uppercase;
 }
 
 .about_me_content {
