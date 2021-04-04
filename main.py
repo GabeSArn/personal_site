@@ -1,5 +1,4 @@
 from flask import Flask, request, render_template
-from forms import ContactForm
 import os
 
 app = Flask(__name__)
@@ -15,7 +14,7 @@ def about_me_page():
     # if request.method == 'POST':
     #     return 'Form Submitted.'
     # elif request.method == 'GET':
-    return render_template('about.html', form=form)
+    return render_template('about.html')
 
 if __name__=='__main__':
     Port = int(os.environ.get('PORT', 17995))
